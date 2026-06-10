@@ -51,7 +51,7 @@ public class StudentGradeManagementSystem {
                     break;
 
                 case 3:
-
+                    // Search student by ID
                     System.out.print("Enter Student ID to search: ");
                     String searchId = input.nextLine();
 
@@ -75,7 +75,7 @@ public class StudentGradeManagementSystem {
                     if (students.isEmpty()) {
                         System.out.println("No student records available.");
                     } else {
-
+                        // Calculate average marks
                         double total = 0;
 
                         for (Student student : students) {
